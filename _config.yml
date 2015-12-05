@@ -1,0 +1,35 @@
+title: Learning OpenCV
+email: roman@marsworks.ru
+description: Все об OpenCV. Перевод книги Learning OpenCV.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+social:
+  - icon: fa-github
+    url: https://github.com/AlexSys7/TranslateBookLearningOpenCV.git
+  - icon: fa-vk
+    url: http://vk.com/opencv
+copyright: Learning OpenCV community 2012-2015 &copy;
+
+# Build settings
+markdown: kramdown
+
+picture:
+  source: _assets
+  output: assets
+  markup: picture
+  presets:
+    # Full width pictures
+    default:
+      ppi: [1, 1.5]
+      attr:
+        class: page-full
+        itemprop: image
+      source_lrg:
+        media: "(min-width: 40em)"
+        width: 730
+      source_med:
+        media: "(min-width: 30em)"
+        width: 450
+      source_default:
+        width: 350
+        height: 200
