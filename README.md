@@ -1,2 +1,1 @@
-# locv
-Learning OpenCV (locv.ru)
+# Learning OpenCV (locv.ru)
